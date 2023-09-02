@@ -1,0 +1,139 @@
+[Sat Aug 19 13:35:57.542390 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Sat Aug 19 13:35:57.543715 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Aug 19 13:48:21.693115 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Aug 19 13:49:03.882093 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Sat Aug 19 13:49:03.883579 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Aug 19 13:50:30.410079 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Aug 19 13:50:46.603640 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Sat Aug 19 13:50:46.604095 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Aug 19 13:51:00.745048 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sat Aug 19 13:51:11.185259 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Sat Aug 19 13:51:11.185642 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Aug 19 14:11:24.966714 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.3. Set the 'ServerName' directive globally to suppress this message
+[Sat Aug 19 15:35:41.945951 2023] [unixd:alert] [pid 17] AH02155: getpwuid: couldn't determine user name from uid 1000, you probably need to modify the User directive
+[Sat Aug 19 15:35:41.947442 2023] [unixd:alert] [pid 21] AH02155: getpwuid: couldn't determine user name from uid 1000, you probably need to modify the User directive
+[Sat Aug 19 15:35:41.946603 2023] [unixd:alert] [pid 19] AH02155: getpwuid: couldn't determine user name from uid 1000, you probably need to modify the User directive
+[Sat Aug 19 15:35:41.946603 2023] [unixd:alert] [pid 18] AH02155: getpwuid: couldn't determine user name from uid 1000, you probably need to modify the User directive
+[Sat Aug 19 15:35:41.947097 2023] [unixd:alert] [pid 20] AH02155: getpwuid: couldn't determine user name from uid 1000, you probably need to modify the User directive
+[Sat Aug 19 15:35:41.947249 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.1.22 configured -- resuming normal operations
+[Sat Aug 19 15:35:41.953370 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sat Aug 19 15:42:03.311055 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sat Aug 19 15:44:13.066717 2023] [unixd:alert] [pid 17] AH02155: getpwuid: couldn't determine user name from uid 1000, you probably need to modify the User directive
+[Sat Aug 19 15:44:13.067091 2023] [unixd:alert] [pid 18] AH02155: getpwuid: couldn't determine user name from uid 1000, you probably need to modify the User directive
+[Sat Aug 19 15:44:13.067510 2023] [unixd:alert] [pid 19] AH02155: getpwuid: couldn't determine user name from uid 1000, you probably need to modify the User directive
+[Sat Aug 19 15:44:13.067848 2023] [unixd:alert] [pid 20] AH02155: getpwuid: couldn't determine user name from uid 1000, you probably need to modify the User directive
+[Sat Aug 19 15:44:13.067988 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.1.22 configured -- resuming normal operations
+[Sat Aug 19 15:44:13.068287 2023] [unixd:alert] [pid 21] AH02155: getpwuid: couldn't determine user name from uid 1000, you probably need to modify the User directive
+[Sat Aug 19 15:44:13.068451 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Aug 20 03:25:52.017489 2023] [unixd:alert] [pid 17] AH02155: getpwuid: couldn't determine user name from uid 1000, you probably need to modify the User directive
+[Sun Aug 20 03:25:52.017825 2023] [unixd:alert] [pid 18] AH02155: getpwuid: couldn't determine user name from uid 1000, you probably need to modify the User directive
+[Sun Aug 20 03:25:52.018143 2023] [unixd:alert] [pid 19] AH02155: getpwuid: couldn't determine user name from uid 1000, you probably need to modify the User directive
+[Sun Aug 20 03:25:52.018298 2023] [unixd:alert] [pid 20] AH02155: getpwuid: couldn't determine user name from uid 1000, you probably need to modify the User directive
+[Sun Aug 20 03:25:52.018361 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.1.22 configured -- resuming normal operations
+[Sun Aug 20 03:25:52.018601 2023] [unixd:alert] [pid 21] AH02155: getpwuid: couldn't determine user name from uid 1000, you probably need to modify the User directive
+[Sun Aug 20 03:25:52.018857 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Aug 20 03:59:52.431481 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Aug 20 04:00:09.251854 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.1.22 configured -- resuming normal operations
+[Sun Aug 20 04:00:09.252297 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Aug 20 04:02:05.469968 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Aug 20 04:02:25.582005 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.1.22 configured -- resuming normal operations
+[Sun Aug 20 04:02:25.583099 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Aug 20 04:03:36.191241 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Aug 20 04:03:51.786648 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.1.22 configured -- resuming normal operations
+[Sun Aug 20 04:03:51.787024 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Aug 20 04:04:10.211841 2023] [autoindex:error] [pid 17] [client 172.18.0.1:45904] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Aug 20 04:04:12.098991 2023] [autoindex:error] [pid 17] [client 172.18.0.1:45904] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Aug 20 04:11:06.827165 2023] [autoindex:error] [pid 18] [client 172.18.0.1:51308] AH01276: Cannot serve directory /var/www/html/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
+[Sun Aug 20 04:12:38.798024 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Aug 20 04:42:06.218289 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.1.22 configured -- resuming normal operations
+[Sun Aug 20 04:42:06.218576 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Aug 20 04:44:03.851592 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Sun Aug 20 04:44:13.146109 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.1.22 configured -- resuming normal operations
+[Sun Aug 20 04:44:13.146653 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Sun Aug 20 04:46:11.461816 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Sun Aug 20 04:48:19.915351 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Sun Aug 20 04:48:19.915777 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 11:40:02.466030 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 11:40:02.466661 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 11:52:32.091579 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+[Mon Aug 21 11:53:12.909019 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 11:53:12.909256 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 11:53:33.049163 2023] [core:error] [pid 17] [client 172.18.0.1:42790] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Mon Aug 21 11:53:33.163539 2023] [core:error] [pid 18] [client 172.18.0.1:42796] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace., referer: http://localhost/var/www/html/index.php/public
+[Mon Aug 21 11:54:26.347935 2023] [core:error] [pid 19] [client 172.18.0.1:38716] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Mon Aug 21 11:55:26.172407 2023] [core:error] [pid 20] [client 172.18.0.1:58052] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Mon Aug 21 11:55:54.508224 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00112: Warning: DocumentRoot [/var/www/html/public] does not exist
+[Mon Aug 21 11:55:59.057616 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 11:55:59.057930 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 11:56:04.218132 2023] [core:error] [pid 18] [client 172.18.0.1:53742] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Mon Aug 21 11:56:07.530922 2023] [core:error] [pid 19] [client 172.18.0.1:35808] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Mon Aug 21 11:56:24.764625 2023] [core:error] [pid 20] [client 172.18.0.1:52956] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error. Use 'LimitInternalRecursion' to increase the limit if necessary. Use 'LogLevel debug' to get a backtrace.
+[Mon Aug 21 11:56:26.607681 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Aug 21 11:56:39.188400 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 11:56:39.188838 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 11:57:20.723187 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Aug 21 12:01:17.425115 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 12:01:17.425537 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 12:02:35.753382 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Aug 21 12:05:29.048463 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 12:05:29.049092 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 12:08:07.360913 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Aug 21 12:11:21.127080 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 12:11:21.127393 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 12:14:58.869486 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Aug 21 12:16:21.411519 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 12:16:21.412692 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 12:34:58.370606 2023] [mpm_prefork:notice] [pid 1] AH00173: SIGHUP received.  Attempting to restart
+[Mon Aug 21 12:34:58.387687 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 12:34:58.387982 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 12:35:34.012339 2023] [mpm_prefork:notice] [pid 1] AH00173: SIGHUP received.  Attempting to restart
+[Mon Aug 21 12:35:34.084873 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 12:35:34.085191 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 12:37:28.739036 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Aug 21 12:39:26.814769 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 12:39:26.815343 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 12:39:37.448802 2023] [php:warn] [pid 19] [client 172.19.0.1:35366] PHP Warning:  require(/var/www/html/../app/Config/Paths.php): Failed to open stream: No such file or directory in /var/www/html/index.php on line 32
+[Mon Aug 21 12:39:37.454221 2023] [php:error] [pid 19] [client 172.19.0.1:35366] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/../app/Config/Paths.php' (include_path='.:/usr/local/lib/php') in /var/www/html/index.php:32\nStack trace:\n#0 {main}\n  thrown in /var/www/html/index.php on line 32
+[Mon Aug 21 12:39:50.517271 2023] [php:warn] [pid 20] [client 172.19.0.1:59118] PHP Warning:  require(/var/www/html/../app/Config/Paths.php): Failed to open stream: No such file or directory in /var/www/html/index.php on line 32
+[Mon Aug 21 12:39:50.517799 2023] [php:error] [pid 20] [client 172.19.0.1:59118] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/../app/Config/Paths.php' (include_path='.:/usr/local/lib/php') in /var/www/html/index.php:32\nStack trace:\n#0 {main}\n  thrown in /var/www/html/index.php on line 32
+[Mon Aug 21 12:40:39.920858 2023] [php:warn] [pid 22] [client 172.19.0.1:36874] PHP Warning:  require(/var/www/html/../app/Config/Paths.php): Failed to open stream: No such file or directory in /var/www/html/index.php on line 32
+[Mon Aug 21 12:40:39.921128 2023] [php:error] [pid 22] [client 172.19.0.1:36874] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/../app/Config/Paths.php' (include_path='.:/usr/local/lib/php') in /var/www/html/index.php:32\nStack trace:\n#0 {main}\n  thrown in /var/www/html/index.php on line 32
+[Mon Aug 21 12:42:18.355490 2023] [php:warn] [pid 23] [client 172.19.0.1:42156] PHP Warning:  require(/var/www/html/../app/Config/Paths.php): Failed to open stream: No such file or directory in /var/www/html/index.php on line 32
+[Mon Aug 21 12:42:18.355831 2023] [php:error] [pid 23] [client 172.19.0.1:42156] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/../app/Config/Paths.php' (include_path='.:/usr/local/lib/php') in /var/www/html/index.php:32\nStack trace:\n#0 {main}\n  thrown in /var/www/html/index.php on line 32
+[Mon Aug 21 12:42:53.300975 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Aug 21 12:44:35.797638 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 12:44:35.798102 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 12:46:03.390214 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Aug 21 12:46:09.926787 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 12:46:09.927289 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 13:01:43.147182 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Aug 21 13:03:47.286481 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 13:03:47.286915 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 13:27:02.640029 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Aug 21 13:27:39.340945 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 13:27:39.341346 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 13:28:05.835346 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Aug 21 13:30:05.558081 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 13:30:05.558458 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 13:34:10.398840 2023] [php:error] [pid 19] [client 172.20.0.1:45164] script '/var/www/html/phpini.php' not found or unable to stat
+[Mon Aug 21 13:34:18.564058 2023] [authz_core:error] [pid 20] [client 172.20.0.1:42154] AH01630: client denied by server configuration: /var/www/html/app/, referer: http://localhost/public/
+[Mon Aug 21 13:34:18.650087 2023] [authz_core:error] [pid 20] [client 172.20.0.1:42154] AH01630: client denied by server configuration: /var/www/html/writable/, referer: http://localhost/public/
+[Mon Aug 21 13:35:36.403537 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Aug 21 13:36:32.290991 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 13:36:32.291808 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 13:38:51.974410 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Aug 21 13:38:53.820760 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.9 configured -- resuming normal operations
+[Mon Aug 21 13:38:53.821156 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Mon Aug 21 15:11:28.271382 2023] [php:warn] [pid 18] [client 172.20.0.1:36618] PHP Warning:  file_get_contents(/var/www/html/app/Modules/Administrasi/Menu/variable.json): Failed to open stream: No such file or directory in /var/www/html/app/Config/Constants.php on line 105, referer: http://localhost/administrasi
+[Mon Aug 21 15:11:28.271909 2023] [php:warn] [pid 18] [client 172.20.0.1:36618] PHP Warning:  Trying to access array offset on value of type null in /var/www/html/app/Config/Constants.php on line 111, referer: http://localhost/administrasi
+[Mon Aug 21 15:25:58.045792 2023] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully

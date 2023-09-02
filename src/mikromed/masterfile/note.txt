@@ -1,0 +1,29 @@
+/* samakan dengan declarasi di config/routes.php */
+/*
+contoh menu 
+$menu = [
+    [
+    'url'=>'VARSMALL',
+    'text'=>'Menu VARNAME',
+    'icon'=>'',
+    'sub'=>[
+        'url'=>'subVARSMALL',
+        'text'=>'SubMenu VARNAME',
+        'icon'=>'',
+        
+        ]
+    ] 
+];   
+*/
+$variable=[];
+$menu=[];
+$menu['VARNAME'] = [
+            [
+            'url'=>'VARSMALL',
+            'text'=>'Menu VARNAME',
+            'icon'=>'',
+            'sub'=>''] 
+        ];  
+$variable['menu']=$menu;
+echo json_encode($variable);
+

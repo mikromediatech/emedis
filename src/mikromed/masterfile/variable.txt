@@ -1,0 +1,1 @@
+{"menu":{"VARNAME":[{"url":"VARSMALL","text":"Menu VARNAME","icon":"","sub":""}]}} 

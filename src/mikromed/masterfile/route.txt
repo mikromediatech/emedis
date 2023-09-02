@@ -1,0 +1,13 @@
+<?php
+
+if(!isset($routes))
+{ 
+    $routes = \Config\Services::routes(true);
+}
+
+$modul = strtolower('MODULENAME');
+$routes->group($modul, ['namespace' => 'App\Modules\MODULENAME\Controllers'], function($subroutes){
+	/*** Route for Dashboard ***/
+    $subroutes->get('', 'MODULENAME::index');	
+
+});

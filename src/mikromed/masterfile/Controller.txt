@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Modules\CONTROLLERNAME\Controllers;
+
+class CONTROLLERNAME extends BaseControl
+{
+    public function index()
+    {
+        return view('CONTROLLERNAME/V_CONTROLLERNAME');
+    }
+
+    
+}
