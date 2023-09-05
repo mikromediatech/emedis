@@ -1,0 +1,4 @@
+[Tue Sep 05 17:02:46.274741 2023] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.2.10 configured -- resuming normal operations
+[Tue Sep 05 17:02:46.275023 2023] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Tue Sep 05 17:02:57.813251 2023] [php:warn] [pid 17] [client 172.18.0.1:44518] PHP Warning:  require(/var/www/html/app/Config/../../vendor/codeigniter4/framework/system/bootstrap.php): Failed to open stream: No such file or directory in /var/www/html/public/index.php on line 38
+[Tue Sep 05 17:02:57.813401 2023] [php:error] [pid 17] [client 172.18.0.1:44518] PHP Fatal error:  Uncaught Error: Failed opening required '/var/www/html/app/Config/../../vendor/codeigniter4/framework/system/bootstrap.php' (include_path='.:/usr/local/lib/php') in /var/www/html/public/index.php:38\nStack trace:\n#0 {main}\n  thrown in /var/www/html/public/index.php on line 38

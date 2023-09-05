@@ -1,0 +1,16 @@
+{
+    "menu": {
+        "Bayu": [{
+            "url": "bayu",
+            "text": "Menu Bayu",
+            "icon": "",
+            "sub": ""
+        },
+        {
+            "url": "bayu/bayu2",
+            "text": "Menu Bayu 2",
+            "icon": "",
+            "sub": ""
+        }]
+    }
+}

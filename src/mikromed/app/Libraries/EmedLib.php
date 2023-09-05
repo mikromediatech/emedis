@@ -16,7 +16,7 @@ class EmedLib {
        // $cache = service("cache");
 
        // dd($cache->getCacheInfo());
-        dd(cache());
+        // dd(cache());
        // echo cache('foo');
     }
 
