@@ -3,12 +3,20 @@
 namespace App\Controllers;
 
 use App\Models\Users;
+use App\Libraries\EmedLib;
 
 class Auth extends BaseController
 {
     
+    function __construct()
+    {
+        $masterlib = new EmedLib();
+        $masterlib->LoadWebsiteConfiguration();
+
+    }
     public function index()
     {
+        
         return view('theme/modern/auth/login');
     }
 

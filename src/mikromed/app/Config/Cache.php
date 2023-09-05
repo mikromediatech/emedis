@@ -21,7 +21,7 @@ class Cache extends BaseConfig
      * it is not available, the $backupHandler will be used in its place.
      */
     // default
-    public string $handler = 'file';    
+    public string $handler = 'predis';    
     // public string $handler = 'memcached';
 
     /**
@@ -33,7 +33,7 @@ class Cache extends BaseConfig
      * unreachable. Often, 'file' is used here since the filesystem is
      * always available, though that's not always practical for the app.
      */
-    public string $backupHandler = 'dummy';
+    public string $backupHandler = 'file';
     // public string $backupHandler = 'file';
 
     /**
@@ -143,13 +143,31 @@ class Cache extends BaseConfig
      *
      * @var array<string, int|string|null>
      */
+
+     /* Docker Setting */
     public array $redis = [
-        'host'     => '127.0.0.1',
-        'password' => null,
+        'host'     => 'redis',
+        'password' => 'Redis_Secret',
         'port'     => 6379,
         'timeout'  => 0,
         'database' => 0,
     ];
+    /* Localhost setting */
+    // public array $redis = [
+    //     'host'     => '127.0.0.1',
+    //     'password' => null,
+    //     'port'     => 6379,
+    //     'timeout'  => 0,
+    //     'database' => 0,
+    // ];
+    /* Default Setting */
+    // public array $redis = [
+    //     'host'     => '127.0.0.1',
+    //     'password' => null,
+    //     'port'     => 6379,
+    //     'timeout'  => 0,
+    //     'database' => 0,
+    // ];
 
     /**
      * --------------------------------------------------------------------------

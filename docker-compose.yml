@@ -10,7 +10,7 @@ services:
         command: --default-authentication-plugin=mysql_native_password
         restart: unless-stopped
         volumes:
-            - ./db_data:/usr/data
+            - ./data/db_data:/usr/data
         ports:
             - 3306:3306
     web:
@@ -20,18 +20,31 @@ services:
         restart: unless-stopped
         volumes: 
             - ./src/mikromed:/var/www/html/            
-            - ./apache_log:/var/log/apache2
+            - ./data/apache_log:/var/log/apache2
         ports:
             - 80:80
         depends_on: 
             - db    
-    adminer:
-        image: adminer
-        restart: unless-stopped
+    # Caching
+    redis:
+        image: redis:alpine
+        command:
+        - /bin/sh
+        - -c
+        # - Double dollars, so that the variable is not expanded by Docker Compose
+        # - Surround by quotes, so that the shell does not split the password
+        # - The ${variable:?message} syntax causes shell to exit with a non-zero
+        #   code and print a message, when the variable is not set or empty
+        - redis-server --requirepass "$${REDIS_PASSWORD:?REDIS_PASSWORD variable is not set}"
+        environment: 
+            REDIS_PASSWORD: ${REDISPASS}
+        volumes:
+        - ./data/redis/data:/data
+        - ./data/redis/redis.conf:/usr/local/etc/redis/redis.conf
         ports:
-            - 8080:8080  
+        - "6379:6379"
 volumes:
-    db_data:
+    data:
     src:
     
     
