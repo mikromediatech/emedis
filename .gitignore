@@ -1,0 +1,4 @@
+#Data & LOG FILE
+data/apache_log/*
+data/db_data/*
+data/redis/*
