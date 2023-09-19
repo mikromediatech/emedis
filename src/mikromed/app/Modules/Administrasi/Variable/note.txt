@@ -3,11 +3,11 @@
 contoh menu 
 $menu = [
     [
-    'url'=>'Administrasi',
+    'url'=>'administrasi',
     'text'=>'Menu Administrasi',
     'icon'=>'',
     'sub'=>[
-        'url'=>'subAdministrasi',
+        'url'=>'subadministrasi',
         'text'=>'SubMenu Administrasi',
         'icon'=>'',
         
@@ -19,7 +19,7 @@ $variable=[];
 $menu=[];
 $menu['Administrasi'] = [
             [
-            'url'=>'Administrasi',
+            'url'=>'administrasi',
             'text'=>'Menu Administrasi',
             'icon'=>'',
             'sub'=>''] 

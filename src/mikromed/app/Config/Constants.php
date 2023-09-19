@@ -95,6 +95,8 @@ define('EVENT_PRIORITY_HIGH', 10);
 
 
 
+
+
 /* GET MENU MODULE */
 $LIST_MENU=[];
 foreach(glob(APPPATH . 'Modules/*', GLOB_ONLYDIR) as $item_dir)
@@ -115,5 +117,3 @@ foreach(glob(APPPATH . 'Modules/*', GLOB_ONLYDIR) as $item_dir)
 }
 
 define('MASTER_MENU',$LIST_MENU);
-
- 

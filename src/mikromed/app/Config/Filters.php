@@ -9,8 +9,8 @@ use CodeIgniter\Filters\Honeypot;
 use CodeIgniter\Filters\InvalidChars;
 use CodeIgniter\Filters\SecureHeaders;
 
-use App\Filters\Auth;
-use App\Filters\NoAuth;
+// use App\Filters\Auth;
+// use App\Filters\NoAuth;
 
 class Filters extends BaseConfig
 {
@@ -23,9 +23,15 @@ class Filters extends BaseConfig
         'toolbar'       => DebugToolbar::class,
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
-        'secureheaders' => SecureHeaders::class,
-        'auth'          => Auth::class,
-        'noauth'        => NoAuth::class,
+        'secureheaders' => SecureHeaders::class,        
+        'session'     => \CodeIgniter\Shield\Filters\SessionAuth::class,
+        'tokens'      => \CodeIgniter\Shield\Filters\TokenAuth::class,
+        'chain'       => \CodeIgniter\Shield\Filters\ChainAuth::class,
+        'auth-rates'  => \CodeIgniter\Shield\Filters\AuthRates::class,
+        'group'       => \CodeIgniter\Shield\Filters\GroupFilter::class,
+        'permission'  => \CodeIgniter\Shield\Filters\PermissionFilter::class,
+        'force-reset' => \CodeIgniter\Shield\Filters\ForcePasswordResetFilter::class,
+        'jwt'         => \CodeIgniter\Shield\Filters\JWTAuth::class,
     ];
 
     /**
@@ -35,7 +41,9 @@ class Filters extends BaseConfig
     public array $globals = [
         'before' => [
             // 'honeypot',
-             'csrf'=>['except'=>['api/[a-zA-Z0-9_]+']],
+             'csrf'=>['except'=>['api/[a-zA-Z0-9_]+','email']],
+             'session' =>  ['except' => ['login*', 'register*','email','auth/a/*']],
+             'force-reset' => ['except' => ['login*', 'register', 'auth/a/*', 'change-password', 'logout']]
             // 'invalidchars',
         ],
         'after' => [
@@ -65,5 +73,11 @@ class Filters extends BaseConfig
      * Example:
      * 'isLoggedIn' => ['before' => ['account/*', 'profiles/*']]
      */
-    public array $filters = [];
+    public array $filters = [
+        'auth-rates' => [
+            'before' => [
+                'login*', 'register*', 'auth/*'
+            ]
+        ]
+    ];
 }

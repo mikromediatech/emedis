@@ -94,7 +94,7 @@
                             <!-- end card -->
 
                             <div class="mt-4 text-center">
-                                <p class="mb-0">Don't have an account ? <a href="#" class="fw-semibold text-primary text-decoration-underline"> Signup </a> </p>
+                                <p class="mb-0">Don't have an account ? <a href="<?=base_url('register');?>" class="fw-semibold text-primary text-decoration-underline"> Signup </a> </p>
                             </div>
 
                         </div>
