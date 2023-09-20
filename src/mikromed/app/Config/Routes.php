@@ -30,16 +30,19 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
-$routes->get('/sample', 'Home::sample');
-$routes->get('/login', 'Auth::index', ['filter' => 'noauth']);
-$routes->post('/loginCheck', 'Auth::loginCheck');
+// $routes->get('/sample', 'Home::sample');
+// $routes->get('/login', 'Auth::index', ['filter' => 'noauth']);
+// $routes->get('/', 'Auth::index');
+// $routes->get('/email', 'Auth::email');
+// $routes->get('/login', 'Auth::index');
+// $routes->get('/register', 'Auth::register');
+// $routes->post('/register', 'Auth::register_process');
+// $routes->get('/change-password', 'Auth::index');
 
-// Filter on route group
-$routes->group('', ['filter'=>'auth'], function ($routes){
-    $routes->get('/logout', 'Auth::logout');
-    $routes->get('/', 'Home::index');    
-    $routes->get('/home', 'Home::index');    
-});
+// $routes->post('/loginCheck', 'Auth::loginCheck');
+$routes->get('/', 'Home::index');   
+
+service('auth')->routes($routes);
 
 /* APPLY HMVC */
 foreach(glob(APPPATH . 'Modules/*', GLOB_ONLYDIR) as $item_dir)

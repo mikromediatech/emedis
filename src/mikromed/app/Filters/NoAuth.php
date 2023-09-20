@@ -26,7 +26,7 @@ class NoAuth implements FilterInterface
     public function before(RequestInterface $request, $arguments = null)
     {
         if (session()->get('isLoggedIn')) {
-            return redirect()->to(base_url('/home'));
+            return redirect()->to(base_url('/'));
         }
     }
 
