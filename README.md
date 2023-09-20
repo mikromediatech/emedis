@@ -29,8 +29,8 @@ At Terminal run
 
 Go to emed-web Terminal 
 Composer install
-php spark migrate 
-php spak db:seed Initial Seed
+php spark migrate --all
+
 
 
 ## Server Requirements
